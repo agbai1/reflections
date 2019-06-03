@@ -1,0 +1,54 @@
+Reflections for lesson1
+
+Q1: How did viewing a diff between two versions of a
+file help you see the bug that was introduced?
+
+A:
+Viewing diff helped me locate the exact point of change
+between an old version a file compared to the new version.
+'-' represented what was removed from the old file and
+'+' represented what was changed or added
+
+Q2: How could having easy access to the entire history
+of a file make you a more efficient programmer in the long term?
+
+A:
+Having access to the entire file history make it easier to
+find all the error quicker than when the files are seperated
+It also save file restoration time when a file is changed by accident.
+- 'git commit' in git are versions of files or recipes that you
+have saved at different intervals.
+- 'git diff' takes two commits and compares them
+
+Q3: What do you think are the pros and cons of manually choosing when
+ to create a commit, like you do in Git, vs having versions automatically
+ saved, like Google docs does?
+
+A:
+Pros -  a. you only save what is important so when you look at ypur commit
+history, it won't be convoluted.
+        b. You avoid the risk of loosing your data bein saved when you're
+        in the middle of typing an idea
+        c. it allows you to include a short description (README) of the
+        changes you are commiting
+Cons -  a. You can forget to save your work and you have a big file with
+        loads of changes
+
+Q4: Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others, like
+Google Docs, treat each file separately?
+
+A:
+By saving all files in one commit, you can easily track your
+changes by looking at the commit history.
+You can also find and compare the files that were changed
+much easily than when you have to search for the version
+that you want in history like Google Docs
+
+Q5: How can you use the commands git log and git diff to
+view the history of files?
+
+A:
+using git log shows you the commit history of all the files
+in your repository. Then using git diff can show you the changes
+you made on the files
