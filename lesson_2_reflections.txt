@@ -1,15 +1,35 @@
 n:b: you commit one logical explanation at a time.
 
 
-Q1. What happens when you initialize a repository? Why do you need to do it?
+Q1. What happens when you initialize a repository?
+Why do you need to do it?
+
 ans: 
-When you initialize a repository, a .git directory is created that stores all the things that will be done within the repository and it also allows git command to access the file. This needs to be done so that you are able to track the files (commits) using git commands.
+When you initialize a repository, a .git directory 
+is created that stores all the things that will be 
+done within the repository and it also allows git 
+command to access the file. This needs to be done 
+so that you are able to track the files (commits) 
+using git commands.
 
-Q2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q2. How is the staging area different from the working 
+directory and the repository? What value do you think 
+it offers?
+
 ans:
-the staging area is different from the working directory becuause the your temp directory 
-are where your files are located in your hard drive and the staging area is where you temporarily store files 
-that will then be commited to the repository. The repository is a git directory 
-that saves all the snapshot of the current state of your files that are commited. 
+the staging area is different from the working directory
+becuause the your temp directory are where your files are
+located in your hard drive and the staging area is where 
+you temporarily store files that will then be commited to
+the repository. The repository is a git directory that saves
+all the snapshot of the current state of your files that 
+are commited. 
 
-Q3. 
+Q3. How can you use the staging area to make sure you have one 
+commit per logical change?
+
+ans:
+you can use the staging area to make sure you have one commit 
+per logical change by adding only the files you wish to commit 
+to the staging area with the command `git add [filename.txt]`. 
+This ensures that each commit has a logical change.
