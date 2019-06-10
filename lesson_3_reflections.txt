@@ -1,0 +1,9 @@
+lessson 3
+Q. What are some situations when branches would be 
+helpful in keeping your history organized? How 
+would branches help?
+
+ans: when I want to experiment on your code, but 
+     are worried about introducing bugs to your 
+     code. Also allows you the flexibility to make
+     big changes and try out new ideas. 
