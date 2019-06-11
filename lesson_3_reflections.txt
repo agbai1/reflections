@@ -7,3 +7,16 @@ ans: when I want to experiment on your code, but
      are worried about introducing bugs to your 
      code. Also allows you the flexibility to make
      big changes and try out new ideas. 
+
+note: use branches when you're making an active change
+      or moving on to a differet piece of work (content
+      switching), whether is working on a new feature
+      or fixing a bug.
+master branch: production quality branch that never breaks
+developement branch: active work is taking place
+experimental branch
+unique feature branches: things that you know might break
+
+Braches also give you the ability to flexibility to switch 
+what you're working on and work something else, and still 
+have code that works and ability to test. 
