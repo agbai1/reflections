@@ -24,3 +24,13 @@ have code that works and ability to test.
 Q. How do the diagrams help you visualize the branch structure?
 ans: the diagrams creates a visual representation of where the
 commits live and also explains their heirachy and reachability.
+
+Q. What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+ans: The result will be marged changes that are different from
+the last commit before the new branch was created.
+We represent it in a diagram to show how the commits differ
+with respect to their branches. Also shows the parent of each
+commit.
+
