@@ -34,3 +34,16 @@ We represent it in a diagram to show how the commits differ
 with respect to their branches. Also shows the parent of each
 commit.
 
+Q. What are the pros and cons of Git’s automatic merging
+ vs. always doing merges manually?
+ans: 
+pros of git auto vs matual merge:
+- ability to work on seperate versions of the same 
+file at the same time
+- can test more than one idea for a porticular project and test
+it with the master.
+cons:
+- it is time consuming as you may only have one version of the 
+file
+
+
