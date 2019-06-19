@@ -16,3 +16,16 @@ commits but sometimes, yoiu may not want that on your master
 branch. So manual pull allows you to pull things only when you
 are certain that you want them pull into the branch that is 
 checked out.
+
+Q3. Describe the differences between forks, clones, and 
+branches. When would you use one instead of another?
+
+ans: Branches are a part-of a local repository. The are
+used to create a repository that can then be made available
+on gitHub provately or publicly. Cloning a repository is a way
+to transfer contents from a repository on you local machine to
+a location on your local machine or from one fom a GitHub account
+to a location on your local machine. Fork is a type of cloning, 
+however, this happen only on your GitHub accounts. In other words,
+forking has nothing to do with your local directory and data from 
+another GitHub repository is sent to your gitHub repository 
