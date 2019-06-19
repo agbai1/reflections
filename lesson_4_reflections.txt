@@ -1,5 +1,18 @@
-Q1. When would you want to use a remote repository rather than keeping 
-all your work local?
-ans: I would use a remote repository if I am working on a project and 
-that requires sharing or colaborating with more than one person. Can 
-also be used when you want feedback for your work.
+Q1. When would you want to use a remote repository 
+rather than keeping all your work local?
+ans: I would use a remote repository if I am working 
+on a project and that requires sharing or colaborating
+with more than one person. Can also be used when you 
+want feedback for your work.
+
+Q2. Why might you want to always pull changes manually 
+rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+ans: GitHub doesn't have the option of staging area that
+is visible to users, this takes away the ability to makes
+changes being commiting. Changed made on GitHub automatically 
+commits but sometimes, yoiu may not want that on your master
+branch. So manual pull allows you to pull things only when you
+are certain that you want them pull into the branch that is 
+checked out.
