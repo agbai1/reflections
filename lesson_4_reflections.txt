@@ -46,3 +46,10 @@ ans: sending code via email or a communication platform. Then
      see exactly was changed during the collaboration. Also allows
      you to make comments and read comments that was made to changes
      during collaborations.
+
+Q6. When would you want to make changes in a separate branch rather 
+    than directly in master? What benefits does each approach have?
+
+ans: when I want some feedback on my code, or when I am collaborating
+     with more than 1 person. That way people can leave comments before
+     the final change can be merged with master.
