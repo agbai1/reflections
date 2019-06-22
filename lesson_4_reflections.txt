@@ -36,3 +36,13 @@ Q4. What is the benefit of having a copy of the last known state
 ans: it allows you to know changes that was made via GitHub or
      by someone else during a collaboration.
 
+Q5. How would you collaborate without using Git or GitHub? What 
+    would be easier, and what would be harder?
+
+ans: sending code via email or a communication platform. Then 
+     checking the content when thry send it back. Meeting up in
+     person to collaborate is also anothet option. GitHub will
+     be easier becuase it saves time and it also allows you to
+     see exactly was changed during the collaboration. Also allows
+     you to make comments and read comments that was made to changes
+     during collaborations.
