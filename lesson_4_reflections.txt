@@ -1,31 +1,38 @@
 Q1. When would you want to use a remote repository 
-rather than keeping all your work local?
+    rather than keeping all your work local?
 ans: I would use a remote repository if I am working 
-on a project and that requires sharing or colaborating
-with more than one person. Can also be used when you 
-want feedback for your work.
+     on a project and that requires sharing or colaborating
+     with more than one person. Can also be used when you 
+     want feedback for your work.
 
 Q2. Why might you want to always pull changes manually 
-rather than having Git automatically stay up-to-date 
-with your remote repository?
+    rather than having Git automatically stay up-to-date 
+    with your remote repository?
 
 ans: GitHub doesn't have the option of staging area that
-is visible to users, this takes away the ability to makes
-changes being commiting. Changed made on GitHub automatically 
-commits but sometimes, yoiu may not want that on your master
-branch. So manual pull allows you to pull things only when you
-are certain that you want them pull into the branch that is 
-checked out.
+     is visible to users, this takes away the ability to makes
+     changes being commiting. Changed made on GitHub automatically 
+     commits but sometimes, yoiu may not want that on your master
+     branch. So manual pull allows you to pull things only when you
+     are certain that you want them pull into the branch that is 
+     checked out.
 
 Q3. Describe the differences between forks, clones, and 
-branches. When would you use one instead of another?
+    branches. When would you use one instead of another?
 
 ans: Branches are a part-of a local repository. The are
-used to create a repository that can then be made available
-on gitHub provately or publicly. Cloning a repository is a way
-to transfer contents from a repository on you local machine to
-a location on your local machine or from one fom a GitHub account
-to a location on your local machine. Fork is a type of cloning, 
-however, this happen only on your GitHub accounts. In other words,
-forking has nothing to do with your local directory and data from 
-another GitHub repository is sent to your gitHub repository 
+     used to create a repository that can then be made available
+     on gitHub provately or publicly. Cloning a repository is a way
+     to transfer contents from a repository on you local machine to
+     a location on your local machine or from one fom a GitHub account
+     to a location on your local machine. Fork is a type of cloning, 
+     however, this happen only on your GitHub accounts. In other words,
+     forking has nothing to do with your local directory and data from 
+     another GitHub repository is sent to your gitHub repository 
+
+Q4. What is the benefit of having a copy of the last known state
+    of the remote stored locally?
+
+ans: it allows you to know changes that was made via GitHub or
+     by someone else during a collaboration.
+
